@@ -1,0 +1,9 @@
+rootProject.name = "test_hms"
+include ':app'
+dependencyResolutionManagement {
+    repositories {
+        google()
+        jcenter()
+        maven {url 'https://developer.huawei.com/repo/'}
+    }
+}
